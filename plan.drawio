@@ -1,0 +1,53 @@
+<mxfile host="65bd71144e">
+    <diagram id="RQ9BwYuzI2NyBQRzD8P5" name="Page-1">
+        <mxGraphModel dx="1502" dy="873" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="12" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2" target="6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" style="edgeStyle=none;html=1;" edge="1" parent="1" source="2">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="140" y="240" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="2" value="Postgres database" style="whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="40" width="200" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Tables:&lt;br&gt;1. users&lt;br&gt;2. rooms (also for timecapsules)&lt;br&gt;3. events&lt;br&gt;&lt;span&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;a. state events&lt;br&gt;&lt;span&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;b. messages&lt;br&gt;&lt;span&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;i. images are messages and the table stores path to image&lt;span&gt;&#9;&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="240" width="200" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6" target="2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6" target="9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6" target="11">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="530" y="100" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="6" value="FastAPI" style="whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="40" width="200" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="1. take pictures in app&lt;br&gt;2. chats&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;a. groupchats&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;b. timecapsules&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;c. dms&lt;br&gt;3. vote-kicking from chats&lt;br&gt;4. memories&lt;br&gt;5. long term:&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;a. filters&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;b. videos??&amp;nbsp;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="600" y="240" width="200" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="1. websockets / graphql / restAPI" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="240" width="200" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="11" target="16">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="11" target="6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Dart/Flutter" style="whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="1">
+                    <mxGeometry x="600" y="40" width="200" height="120" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
