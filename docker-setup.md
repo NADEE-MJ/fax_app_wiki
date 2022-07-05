@@ -16,7 +16,7 @@ desc: ''
    1. Install the appropriate version of Docker Desktop from <https://www.docker.com/get-started/>
    2. Select WSL 2 instead of Hypervisor during setup
 
-### pull the repo
+### pull/clone the repo
 
 git clone <https://github.com/fax-app/docker_env.git> {working path}
 
@@ -28,44 +28,25 @@ docker by microsoft
 open terminal in vs code
 run the command "docker build -t "fax_env" .
 
+## running the containers
+
+1. make sure docker is open on your pc
+2. make sure you cd into the docker_env repo
+3. run ".\scripts\compose.ps1"
+4. wait for it to build, it will take a while
+5. once it completes the build, CTRL+SHIFT+P, then type "Remote-Containers:attach to running container...", then select fax_env
+6. in your vs code file explorer open the folder "/home/dev" or if you want to work on a specific repo then open to "/home/dev/repos/{repo you want to work on}"
+7. you are up!
+
 ## PGAdmin SETUP
 
 ## GIT SETUP
 
 > github email and username then pull and enter yes
-git config --global user.name "NADEE-MJ"
-git config --global user.email "nadeem.maida@gmail.com"
+git config --global user.name "{your github username}"
+git config --global user.email "{your github email}"
 git config --list
 git pull
-
-## ADD TO .ENV file
-
-python .env file setup: pip install python-dotenv
-
-## ZSH setup and other vs code setup, maybe write a script for this?
-
-~~~bash
-
-sudo apt install zsh fzf tig chroma -y
-
-echo "zsh" >> /home/deploy/.bashrc
-
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-
-rm ~/.zshrc
-echo "$(curl -fsSL https://gist.githubusercontent.com/NADEE-MJ/ebd8905c2b95e86b5d413e49d2d9cc0c/raw/.zshrc)" >> /home/deploy/.zshrc
-
-rm ~/.p10k.zsh
-echo "$(curl -fsSL https://gist.githubusercontent.com/NADEE-MJ/d1a275c1d780a7f17011cff25d573def/raw/.p10k.zsh)" >> /home/deploy/.p10k.zsh
-
-git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
-git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-git clone https://github.com/zsh-users/zsh-history-substring-search ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-history-substring-search
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-
-source ~/.zshrc
-
-~~~
 
 ### VS Code extensions to activate
 
