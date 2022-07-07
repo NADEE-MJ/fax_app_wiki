@@ -2,7 +2,8 @@
 
 ## In progress
 ### Creating branch
-1. `git branch -b {issue type}-{issue number}`
+1. `git checkout main`
+2. `git checkout -b {issue type}-{issue number}`
 
 ### Commit messages
 1. #{issuenumber} concise, descriptive message

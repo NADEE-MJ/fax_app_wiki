@@ -38,6 +38,11 @@ run the command "docker build -t "fax_env" .
 6. in your vs code file explorer open the folder "/home/dev" or if you want to work on a specific repo then open to "/home/dev/repos/{repo you want to work on}"
 7. you are up!
 
+## environment variables
+1. make a copy of .env.example called .env
+2. set all of the variables inside
+   1. generate a security with `openssl rand -base64 32`
+
 ## PGAdmin SETUP
 
 ## GIT SETUP
