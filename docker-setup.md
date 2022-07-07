@@ -59,3 +59,7 @@ git pull
    7. PHP Namespace Resolver
    8. tabnine
    9. wakatime
+   10. Dart
+      a. Search "dart.onlyAnalyzeProjectsWithOpenFiles" in VS Code settings and make sure it's enabled.
+   11. Flutter
+
