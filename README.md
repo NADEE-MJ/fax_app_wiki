@@ -7,7 +7,7 @@
 <div align="center">
   <b><font size="+4">notes</font></b>
   <br />
-  <a href="https://github.com/fax-app/notes/issues/new?assignees=&labels=enhancement&template=feature.md&title=[FEATURE]">Request to Add Notes</a>
+  <a href="https://github.com/fax-app/notes/issues/new?assignees=&labels=feature&template=feature.md&title=[FEATURE]">Request to Add Notes</a>
   |
   <a href="https://github.com/fax-app/notes/issues/new?assignees=&labels=question&template=support.md&title=[SUPPORT]">Ask a Question</a>
 </div>
