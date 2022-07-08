@@ -30,11 +30,4 @@ Please try to create bug reports that are:
 
 ### How to submit a Pull Request
 
-1. Search our repository for open or closed
-   [Pull Requests](https://github.com/fax-app/notes/pulls)
-   that relate to your submission. You don't want to duplicate effort.
-2. Fork the project
-3. Create your feature branch (`git checkout -b {issue type}-{issue number}`)
-4. Commit your changes (`git commit -m 'short descriptive commit message'`)
-5. Push to the branch (`git push`)
-6. [Open a Pull Request](https://github.com/fax-app/notes/compare?expand=1)
+Please follow our [guide](https://github.com/fax-app/notes/blob/main/dev-process.md) in the notes repo.

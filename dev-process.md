@@ -10,9 +10,10 @@
 2. If you need to include more information, put it in the issue itself or the pull request
    1. **please do not put a detailed commit description**, i.e. keep it under 50 characters
 
-### Creating pull request
-1. go to repo on github.com
-2. name the request as follows:
+### Creating a PR (Pull Request)
+1. Search our repository for open or closed [Pull Requests](https://github.com/fax-app/notes/pulls) that relate to your submission. You don't want to duplicate effort.
+2. Open a [Pull Request](https://github.com/fax-app/notes/compare?expand=1) if one has not been created already.
+4. Name the PR as follows:
 >[{issue type}-{issue number}] {issue name}
 
 ### Merge main
