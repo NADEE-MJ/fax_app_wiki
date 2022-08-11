@@ -39,21 +39,20 @@ Clone the repo from this link:
 7. You are up!
 
 ## environment variables
+
 1. Make a copy of .env.example in the fax_server folder called .env
 2. Set all of the variables inside
-   1. For the secret key generate a security with: `openssl rand -base64 32`
-
+   1. For the secret key generate with: `openssl rand -base64 32`
 
 ## GIT SETUP
 
-```bash
-git config --global user.name "{your github username}"
-git config --global user.email "{your github email}"
-git config --list
-git pull
+```zsh
+gcg "{your github username}" "{your github email}"
 ```
 
 ### Recommended VS Code Extensions
+
+run install-code-exts to install recommended extensions:
 
    1. Code Spell Checker
    2. Formatting Toggle
