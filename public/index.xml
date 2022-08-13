@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About on fax-app</title>
+    <link>https://fax.nadee-mj.dev/</link>
+    <description>Recent content in About on fax-app</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://fax.nadee-mj.dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Create Docker Environment</title>
+      <link>https://fax.nadee-mj.dev/documentation/docker/docker-setup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://fax.nadee-mj.dev/documentation/docker/docker-setup/</guid>
+      <description>Install WSL and Docker # Install WSL # In powershell or cmd run &amp;ldquo;wsl &amp;ndash;install&amp;rdquo; Check wsl is version 2 by running &amp;ldquo;wsl &amp;ndash;set-default-version 2&amp;rdquo; May need to install wsl2 online Install Docker # Install the windows version of Docker Desktop from https://www.docker.com/get-started/ Select WSL 2 instead of Hypervisor during setup Pull/Clone the repo # Clone the repo from this link:
+https://github.com/fax-app/docker_env.git
+Open the repo in VS Code Install the following extensions in VS Code: Remote - Containers by Microsoft Docker by Microsoft Open the terminal in VS Code Run the command &amp;ldquo;.</description>
+    </item>
+    
+    <item>
+      <title>Dev Processs</title>
+      <link>https://fax.nadee-mj.dev/documentation/developer-process/dev-process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://fax.nadee-mj.dev/documentation/developer-process/dev-process/</guid>
+      <description>Dev Process # To Do # In progress # Creating branch # git checkout main git checkout -b {issue type}-{issue number} Commit messages # #{issuenumber} concise, descriptive message If you need to include more information, put it in the issue itself or the pull request please do not put a detailed commit description, i.e. keep it under 50 characters Creating a PR (Pull Request) # Search our repository for open or closed Pull Requests that relate to your submission.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Install WSL and Docker # Install WSL # In powershell or cmd run &ldquo;wsl &ndash;install&rdquo; Check wsl is version 2 by running &ldquo;wsl &ndash;set-default-version 2&rdquo; May need to install wsl2 online Install Docker # Install the windows version of Docker Desktop from https://www.docker.com/get-started/ Select WSL 2 instead of Hypervisor during setup Pull/Clone the repo # Clone the repo from this link:
+https://github.com/fax-app/docker_env.git
+Open the repo in VS Code Install the following extensions in VS Code: Remote - Containers by Microsoft Docker by Microsoft Open the terminal in VS Code Run the command &ldquo;.">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="Create Docker Environment" />
+<meta property="og:description" content="Install WSL and Docker # Install WSL # In powershell or cmd run &ldquo;wsl &ndash;install&rdquo; Check wsl is version 2 by running &ldquo;wsl &ndash;set-default-version 2&rdquo; May need to install wsl2 online Install Docker # Install the windows version of Docker Desktop from https://www.docker.com/get-started/ Select WSL 2 instead of Hypervisor during setup Pull/Clone the repo # Clone the repo from this link:
+https://github.com/fax-app/docker_env.git
+Open the repo in VS Code Install the following extensions in VS Code: Remote - Containers by Microsoft Docker by Microsoft Open the terminal in VS Code Run the command &ldquo;." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://fax.nadee-mj.dev/documentation/docker/docker-setup/" /><meta property="article:section" content="documentation" />
+
+
+
+<title>Create Docker Environment | fax-app</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/book.min.4b35fed0bea034bbc19c89c71e14b73fb9c68cfcc586b9382adfb9b7b103ba06.css" integrity="sha256-SzX&#43;0L6gNLvBnInHHhS3P7nGjPzFhrk4Kt&#43;5t7EDugY=" crossorigin="anonymous">
+  <script defer src="/flexsearch.min.js"></script>
+  <script defer src="/en.search.min.1981ebbd7e709b5415907298a7631f42a5064c7783410eaf4f7845de6796c018.js" integrity="sha256-GYHrvX5wm1QVkHKYp2MfQqUGTHeDQQ6vT3hF3meWwBg=" crossorigin="anonymous"></script>
+
+  <script defer src="/sw.min.6f6f90fcb8eb1c49ec389838e6b801d0de19430b8e516902f8d75c3c8bd98739.js" integrity="sha256-b2&#43;Q/LjrHEnsOJg45rgB0N4ZQwuOUWkC&#43;NdcPIvZhzk=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><img src="/images/logo.svg" alt="Logo" /><span>fax-app</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <span>Documentation</span>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-2d8c86af17452120f0899eb8d3d54122" class="toggle"  />
+    <label for="section-2d8c86af17452120f0899eb8d3d54122" class="flex justify-between">
+      <a role="button" class="">Developer Process</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/documentation/developer-process/dev-process/" class="">Dev Processs</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-22558425a53cc7925d7aa1495b62c10d" class="toggle" checked />
+    <label for="section-22558425a53cc7925d7aa1495b62c10d" class="flex justify-between">
+      <a role="button" class="">Docker</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/documentation/docker/docker-setup/" class="active">Create Docker Environment</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <a href="/usage/" class="">test</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="https://github.com/fax-app" target="_blank" rel="noopener">
+        Github
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Create Docker Environment</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#install-wsl-and-docker">Install WSL and Docker</a>
+          <ul>
+            <li><a href="#install-wsl">Install WSL</a></li>
+            <li><a href="#install-docker">Install Docker</a></li>
+            <li><a href="#pullclone-the-repo">Pull/Clone the repo</a></li>
+          </ul>
+        </li>
+        <li><a href="#running-the-containers">running the containers</a></li>
+        <li><a href="#environment-variables">environment variables</a></li>
+        <li><a href="#git-setup">GIT SETUP</a>
+          <ul>
+            <li><a href="#recommended-vs-code-extensions">Recommended VS Code Extensions</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h2 id="install-wsl-and-docker">
+  Install WSL and Docker
+  <a class="anchor" href="#install-wsl-and-docker">#</a>
+</h2>
+<h3 id="install-wsl">
+  Install WSL
+  <a class="anchor" href="#install-wsl">#</a>
+</h3>
+<ol>
+<li>In powershell or cmd run &ldquo;wsl &ndash;install&rdquo;</li>
+<li>Check wsl is version 2 by running &ldquo;wsl &ndash;set-default-version 2&rdquo;
+<ol>
+<li>May need to install wsl2 online</li>
+</ol>
+</li>
+</ol>
+<h3 id="install-docker">
+  Install Docker
+  <a class="anchor" href="#install-docker">#</a>
+</h3>
+<ol>
+<li>Install the windows version of Docker Desktop from 
+  <a href="https://www.docker.com/get-started/">https://www.docker.com/get-started/</a></li>
+<li>Select WSL 2 instead of Hypervisor during setup</li>
+</ol>
+<h3 id="pullclone-the-repo">
+  Pull/Clone the repo
+  <a class="anchor" href="#pullclone-the-repo">#</a>
+</h3>
+<p>Clone the repo from this link:</p>
+<blockquote>
+<p>
+  <a href="https://github.com/fax-app/docker_env.git">https://github.com/fax-app/docker_env.git</a></p>
+</blockquote>
+<ol>
+<li>Open the repo in VS Code</li>
+<li>Install the following extensions in VS Code:
+<ol>
+<li>Remote - Containers by Microsoft</li>
+<li>Docker by Microsoft</li>
+</ol>
+</li>
+<li>Open the terminal in VS Code</li>
+<li>Run the command &ldquo;./scripts/compose.ps1&rdquo;</li>
+</ol>
+<h2 id="running-the-containers">
+  running the containers
+  <a class="anchor" href="#running-the-containers">#</a>
+</h2>
+<ol>
+<li>Make sure Docker Desktop is open on your pc</li>
+<li>Make sure you cd into the docker_env repo</li>
+<li>Run &ldquo;.\scripts\compose.ps1&rdquo;</li>
+<li>Wait for it to build, it will take a while</li>
+<li>Once it completes the build, enter the command pallette (CTRL+SHIFT+P), then type &ldquo;Remote-Containers:attach to running container&hellip;&rdquo;, and select fax_env</li>
+<li>In your VS Code file explorer open the folder &ldquo;/home/dev&rdquo; or if you want to work on a specific repo then open to &ldquo;/home/dev/repos/{repo you want to work on}&rdquo;</li>
+<li>You are up!</li>
+</ol>
+<h2 id="environment-variables">
+  environment variables
+  <a class="anchor" href="#environment-variables">#</a>
+</h2>
+<ol>
+<li>Make a copy of .env.example in the fax_server folder called .env</li>
+<li>Set all of the variables inside
+<ol>
+<li>For the secret key generate with: <code>openssl rand -base64 32</code></li>
+</ol>
+</li>
+</ol>
+<h2 id="git-setup">
+  GIT SETUP
+  <a class="anchor" href="#git-setup">#</a>
+</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-zsh" data-lang="zsh"><span style="display:flex;"><span>gcg <span style="color:#e6db74">&#34;{your github username}&#34;</span> <span style="color:#e6db74">&#34;{your github email}&#34;</span>
+</span></span></code></pre></div><h3 id="recommended-vs-code-extensions">
+  Recommended VS Code Extensions
+  <a class="anchor" href="#recommended-vs-code-extensions">#</a>
+</h3>
+<p>run install-code-exts to install recommended extensions:</p>
+<ol>
+<li>Code Spell Checker</li>
+<li>Formatting Toggle</li>
+<li>Github Pull Requests and issues</li>
+<li>Gitlens</li>
+<li>Indent Rainbow</li>
+<li>Tabnine</li>
+<li>Wakatime</li>
+<li>Dart
+<ol>
+<li>When using dart extension to avoid generating 500k+ errors in VS Code, either search for &ldquo;dart.onlyAnalyzeProjectsWithOpenFiles&rdquo; in VS Code settings and make sure it&rsquo;s enabled or you can remote directly into the repos folder or a specific repo folder to avoid the problem altogether.</li>
+</ol>
+</li>
+<li>Flutter</li>
+</ol>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#install-wsl-and-docker">Install WSL and Docker</a>
+          <ul>
+            <li><a href="#install-wsl">Install WSL</a></li>
+            <li><a href="#install-docker">Install Docker</a></li>
+            <li><a href="#pullclone-the-repo">Pull/Clone the repo</a></li>
+          </ul>
+        </li>
+        <li><a href="#running-the-containers">running the containers</a></li>
+        <li><a href="#environment-variables">environment variables</a></li>
+        <li><a href="#git-setup">GIT SETUP</a>
+          <ul>
+            <li><a href="#recommended-vs-code-extensions">Recommended VS Code Extensions</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
