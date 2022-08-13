@@ -1,6 +1,6 @@
 {
-  "name": "Hugo Book",
-  "short_name": "Hugo Book",
+  "name": "fax-app",
+  "short_name": "fax-app",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
